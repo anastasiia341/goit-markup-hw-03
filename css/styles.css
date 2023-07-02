@@ -288,13 +288,14 @@ border-bottom: 1px solid #e7e9fc;
 
 .team-list-item{
     width: calc((100% - 72px) / 4);
+    border-radius: 0 0 4px 4px;
 }
 
 .team-text{
     text-align: center;
     padding: 32px 16px;
     background-color: #fff;
-    border-radius: 0 0 4px 4px;
+    
 }
 
 .team-image{
