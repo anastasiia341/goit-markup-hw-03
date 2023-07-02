@@ -77,12 +77,13 @@ img {
 
 /* *-------------Header---------------------- */
 
+.header{
+border-bottom: 1px solid #e7e9fc;
+}
+
 .header-container{
     display: flex;
-    border: 1px solid #E7E9FC;
-   
-   
-      
+    
 }
 
 .nav-menu{
@@ -93,10 +94,9 @@ img {
 .nav-list{
     display: flex;
     gap: 40px;
-    padding-top: 24px;
-    padding-right: 332px;
-    padding-bottom: 24px;
-    padding-left: 76px;
+    padding-top: 24px 0;
+    margin-right: 332px;
+    
     
 }
 
@@ -116,6 +116,7 @@ img {
     text-transform: uppercase;
     text-decoration: none;
     color: var(--accent-color);
+    margin-right: 76px
   
 }
 
@@ -138,6 +139,7 @@ img {
     letter-spacing: 0.02em;
     text-decoration: none;
     color: var(--title-text-color);
+
 }
 
 .link-nav:hover,
@@ -168,6 +170,7 @@ img {
 
 .hero {
     background-color: var(--title-text-color);
+    padding: 188px 0;
 }
 
 .hero-container{
@@ -185,6 +188,7 @@ img {
         margin-right: 472px;
         margin-bottom: 292px;
         margin-left: 472px;
+        max-width: 496px;
        
 
 
@@ -199,6 +203,15 @@ img {
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.64px;
+        display: block;
+        min-width: 169px;
+        height: 56px;
+        border: none;
+        border-radius: 4px;
+        margin-top: 48px;
+        margin-right: 635px;
+        margin-bottom: 356px;
+        margin-left: 636px;
        
             
 
@@ -211,12 +224,41 @@ img {
 }
 
 /* *----------------Section-------------- */
-.features-section {}
+.section-features {
+    padding: 120px;
+}
 
 .features-list{
     display: flex;
     gap: 24px;
     margin-top: 120px;
+  
+}
+
+.title {
+    color: var(--title-text-color);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+    margin-bottom: 8px;
+}
+
+.section-title {
+    color: var(--title-text-color);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 72px;
+}
+
+/* *-------------Section works------------ */
+.section-works {
+    padding-bottom: 120px;
 }
 
 .works-list{
@@ -225,9 +267,15 @@ img {
     margin-top: 72px;
 }
 
+/* *-------Section team-------- */
+.section-team {
+    background-color: var(--secondary-white-color);
+    padding: 120px 0;
+}
+
 .team-list{
 display: flex;
-    gap: 32px;
+    gap: 24px;
     margin-top: 72px;
 
 }
@@ -235,30 +283,14 @@ display: flex;
 .team-text{
     text-align: center;
     margin: 32px;
+    padding: 32px 16px;
 }
 
-.section-title {
-    color: var(--title-text-color);
-font-size: 36px;
-    font-weight: 700;
-    line-height: 1.11;
-    letter-spacing: 0.72px;
-    text-transform: capitalize;
-    text-align: center;
-    margin-top: 120px;
-}
 
-.section-team {
-    background-color: var(--secondary-white-color);
-}
 
-.title {
-    color: var(--title-text-color);
-    font-size: 20px;
-        font-weight: 500;
-        line-height: 1.2;
-        letter-spacing: 0.4px;
-}
+
+
+
 
 /* *-----------------Footer------------ */
 .footer{
